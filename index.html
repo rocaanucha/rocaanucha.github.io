@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>TestWeb</title>
+    <style>
+    button{
+        background-color: blue;
+        font-size: 30px;
+    }
+    .text2{
+        background-color: darkgreen;
+    }
+    .my-img{ 
+        width: 200px;
+        height: 500px;
+        background-image: url('./img/test.jpg')
+        
+    }
+        </style>
+        <script>
+        function onAleart()
+        {
+            alert('Hello Naja')
+        }
+        function onAleartMyText(text) {
+            var margeText = text + document.getElementById('myText').value;
+            alert(margeText);
+
+        }
+        
+        </script>
+</head>
+<body>
+    Hello
+    <img src="./img/test.jpg";style="width: 300px; height:300px"></img>
+     <!--  <h1 class = "my-img"></h1> -->
+     <br>
+       <h2>Hello</h2>
+       <button><font color=red><h1>Karaked</h1></font></button>
+       <br><br>
+       <button onclick="onAleart()"; style="color:crimson; background-color:	#00ffbf";><h1 >Test Karaked</h1></button>
+       <br>
+       <button>Test Karaked2</button>
+       <br><br>
+
+
+      <hr/><br/>
+      Please Enter Text: <input type"text" id="myText"></input>
+      <button onclick="onAleartMyText('Your Text.')">OK</button>
+    
+    
+
+</body>
+</html>
